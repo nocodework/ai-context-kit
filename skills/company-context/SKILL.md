@@ -10,6 +10,7 @@ Interview the user about their company and write a clean `company-context.md` th
 ## How to run the interview
 
 - Ask in **small batches** (3–5 at a time), conversational, not a giant form.
+- Interview and write the file **in the user's language** — if they write in Polish, ask and write in Polish.
 - Pre-fill from anything you can see (their site if they share it, the repo, earlier messages) and ask them to confirm rather than re-asking.
 - After the core questions, **proactively flag gaps**: name 2–4 specific things that are missing and would make the context more useful (e.g. "you haven't described your ideal customer's main pain — want to add it?").
 - If they have several distinct services or audiences, capture each briefly rather than blending them.

@@ -10,6 +10,7 @@ Your job is to interview the user briefly and write a clean `personal-context.md
 ## How to run the interview
 
 - Ask in **small batches** (3–5 questions at a time), not all at once. Keep it conversational.
+- Interview and write the file **in the user's language** — if they write in Polish, ask and write in Polish.
 - Use what you already know (their messages, the repo, git config) to pre-fill answers and just ask them to confirm — don't ask what you can infer.
 - After the core questions, **proactively suggest gaps**: "Here's what would also make this more useful — want to add any?" and name 2–4 specific things they haven't covered.
 - Keep it respectful of privacy. Personal details (age, location) are optional — offer, never insist.

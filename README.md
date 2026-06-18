@@ -1,5 +1,7 @@
 <div align="center">
 
+**English** · [Polski](README.pl.md)
+
 # ai-context-kit
 
 Build a reusable **context file about you and your company**, once — then drop it into any AI tool so every answer is sharper and on-brand. Two Claude Code skills that interview you, plus plain Markdown templates if you don't use Claude Code.
@@ -41,7 +43,7 @@ Then in Claude Code: *"build my personal context"* or *"build our company contex
 curl -O https://raw.githubusercontent.com/nocodework/ai-context-kit/main/templates/company-context.template.md
 ```
 
-See [`examples/`](examples) for filled-in samples to copy the shape from.
+See [`examples/`](examples) for filled-in samples (English and Polish) to copy the shape from. **Po polsku?** Użyj plików `*.template.pl.md` i [README.pl.md](README.pl.md).
 
 ## Use your context in any AI tool
 
