@@ -1,0 +1,50 @@
+# Company context
+
+> One line: what the company does. (e.g. "We build automation and AI apps for mid-sized e-commerce.")
+
+## The company
+- **Name:**
+- **What we do (one line):**
+- **Website:**
+- **Stage / size:**
+
+## Offer
+_Products/services, who each is for, pricing model (optional)._
+- **Service / product:** — for whom —
+- **What makes us genuinely different:** _(real differentiators, not slogans)_
+
+## Customers
+- **Ideal customer:** _(industry, size, role)_
+- **The problem we solve:**
+- **The outcome we deliver:**
+- **Example clients:** _(real or anonymised)_
+
+## Personas
+_The key people in a deal._
+- **Decision-maker:** — goals — pains —
+- **User / day-to-day:** — goals — pains —
+
+## Positioning & messaging
+- **Category we compete in:**
+- **Value proposition (one sentence):**
+- **Proof / credibility:**
+- **Often compared to:**
+
+## Voice
+- **Tone:**
+- **Words/phrases to use:**
+- **Words/phrases to avoid:**
+
+## Team _(optional)_
+- **Who does what:**
+
+## Client-facing know-how
+- **Questions clients ask most (with answers):**
+- **Common objections & how we handle them:**
+- **Our process, first contact → delivery:**
+
+## Anything else
+_What any AI should know to represent us well._
+
+---
+_Built with [ai-context-kit](https://github.com/nocodework/ai-context-kit). Put this in a shared ChatGPT/Claude Project, a Gemini Gem, CLAUDE.md, or .cursor/rules — and keep it updated._
