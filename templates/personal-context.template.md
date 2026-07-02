@@ -1,6 +1,9 @@
 # Personal context
+_Last updated: YYYY-MM_
 
 > One line: who you are and what you do. (e.g. "Marketing lead at a B2B SaaS, focused on lifecycle and content.")
+
+_Privacy note: this file gets pasted into external AI tools — include only what you're comfortable having outside your own machine. Every detail is optional._
 
 ## Identity
 - **Name:**
@@ -41,4 +44,4 @@ _2–3 sentences: experience, the domains you actually know well, a couple of no
 _Whatever you want any AI to know about you._
 
 ---
-_Built with [ai-context-kit](https://github.com/nocodework/ai-context-kit). Drop this into CLAUDE.md, a ChatGPT/Claude Project, a Gemini Gem, or .cursor/rules — and keep it updated._
+_Built with [ai-context-kit](https://github.com/nocodework/ai-context-kit). Drop this into CLAUDE.md, a ChatGPT/Claude Project, a Gemini Gem, or your editor's AI rules — and keep it updated._

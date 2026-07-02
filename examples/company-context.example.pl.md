@@ -1,16 +1,17 @@
 # Kontekst firmy
+_Ostatnia aktualizacja: 2026-06_
 
 > Budujemy automatyzacje i lekkie aplikacje wewnętrzne dla firm usługowych, które wyrosły z arkuszy.
 
 ## Firma
 - **Nazwa:** FlowForge
-- **Co robimy (jedno zdanie):** Automatyzacje i lekkie narzędzia wewnętrzne „pod klucz".
+- **Co robimy (jedno zdanie):** Automatyzacje i lekkie narzędzia wewnętrzne „pod klucz”.
 - **Strona:** flowforge.example
 - **Etap / wielkość:** 6 osób, bootstrap, rentowni.
 
 ## Oferta
-- **Sprinty automatyzacyjne** — dla zespołów ops tonących w ręcznej robocie — stały zakres, 2 tygodnie.
-- **Aplikacje wewnętrzne** — dla zespołów, którym arkusz stał się „systemem krytycznym" — stała cena.
+- **Usługa / produkt:** Sprinty automatyzacyjne — dla zespołów ops tonących w ręcznej robocie — stały zakres, 2 tygodnie.
+- **Usługa / produkt:** Aplikacje wewnętrzne — dla zespołów, którym arkusz stał się „systemem krytycznym” — stała cena.
 - **Co nas naprawdę wyróżnia:** Oddajemy udokumentowane systemy, które klient sam ogarnia — zero uzależnienia od nas.
 
 ## Klienci
@@ -25,24 +26,27 @@
 
 ## Pozycjonowanie i komunikacja
 - **Kategoria, w której gramy:** Agencje automatyzacji / fractional ops.
-- **Propozycja wartości:** Systemy, które są Twoje, gotowe w tygodnie, nie kwartały.
-- **Dowód / wiarygodność:** 40+ wdrożeń, case studies z nazwy, stała cena z gwarancją.
+- **Propozycja wartości (jedno zdanie):** Systemy, które są Twoje, gotowe w tygodnie, nie kwartały.
+- **Dowód / wiarygodność:** 40+ wdrożeń, case studies z nazwą klienta, stała cena z gwarancją.
 - **Z czym nas porównują:** Zatrudnienie juniora ops; duże konsultingi; DIY no-code.
 
 ## Głos marki
 - **Ton:** Praktyczny, pewny, bez hype'u.
-- **Słowa/frazy do używania:** „miej swoje systemy", „w tygodnie", „udokumentowane".
-- **Słowa/frazy do unikania:** „rewolucyjne", „AI-powered" jako wata, „seamless".
+- **Słowa/frazy do używania:** „miej swoje systemy”, „w tygodnie”, „udokumentowane”.
+- **Słowa/frazy do unikania:** „rewolucyjne”, „AI-powered” jako wata, „seamless”.
 
 ## Zespół
 - **Kto co robi:** 2 budujących, 1 solutions lead, 1 PM, 2 na pół etatu.
 
 ## Wiedza pod klienta
-- **Najczęstsze pytania:**
-  - *„Czy będziemy od was zależni na zawsze?"* → Nie — dokumentujemy i szkolimy; sami to prowadzicie i zmieniacie.
-  - *„Ile to trwa?"* → Sprinty 2 tygodnie; aplikacje 3–6 tygodni.
-- **Typowe obiekcje:** „Sami byśmy to zrobili" → moglibyście, ale trudna część to wersja utrzymywalna; to właśnie sprzedajemy.
-- **Proces:** Rozmowa → stały zakres + cena → budowa z cotygodniowymi check-inami → przekazanie + dokumentacja + szkolenie.
+- **Najczęstsze pytania klientów (z odpowiedziami):**
+  - *„Czy będziemy od was zależni na zawsze?”* → Nie — dokumentujemy i szkolimy; sami to prowadzicie i zmieniacie.
+  - *„Ile to trwa?”* → Sprinty 2 tygodnie; aplikacje 3–6 tygodni.
+- **Typowe obiekcje i jak je rozbrajamy:** „Sami byśmy to zrobili” → moglibyście, ale trudna część to wersja utrzymywalna; to właśnie sprzedajemy.
+- **Nasz proces, od pierwszego kontaktu do dowiezienia:** Rozmowa → stały zakres + cena → budowa z cotygodniowymi check-inami → przekazanie + dokumentacja + szkolenie.
 
 ## Cokolwiek jeszcze
 Nigdy nie obiecujemy terminów na wyrost, żeby wygrać deal. Mniej obiecuj, więcej dowoź, trzymaj klientów latami.
+
+---
+_Zrobione z [ai-context-kit](https://github.com/nocodework/ai-context-kit). Wrzuć do współdzielonego Projektu w ChatGPT/Claude, Gema w Gemini, CLAUDE.md albo reguł AI w Twoim edytorze — i aktualizuj przy zmianach._

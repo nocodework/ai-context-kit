@@ -1,4 +1,5 @@
 # Personal context
+_Last updated: 2026-06_
 
 > Operations lead turned independent automation consultant; I help small teams cut busywork with no-code and AI.
 
@@ -39,3 +40,6 @@ Ten years in operations, the last four building internal tools and automations. 
 
 ## Anything else
 I value my time over scale. Push back if a suggestion adds complexity for little gain.
+
+---
+_Built with [ai-context-kit](https://github.com/nocodework/ai-context-kit). Drop this into CLAUDE.md, a ChatGPT/Claude Project, a Gemini Gem, or your editor's AI rules — and keep it updated._

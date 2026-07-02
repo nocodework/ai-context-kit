@@ -1,6 +1,9 @@
 # Company context
+_Last updated: YYYY-MM_
 
 > One line: what the company does. (e.g. "We build automation and AI apps for mid-sized e-commerce.")
+
+_Privacy note: this file gets pasted into external AI tools. Leave out anything under NDA or confidential; use client names only with their permission — otherwise anonymise._
 
 ## The company
 - **Name:**
@@ -10,7 +13,7 @@
 
 ## Offer
 _Products/services, who each is for, pricing model (optional)._
-- **Service / product:** — for whom —
+- **Service / product:** _(name — who it's for — pricing model; repeat this line per offer)_
 - **What makes us genuinely different:** _(real differentiators, not slogans)_
 
 ## Customers
@@ -21,8 +24,8 @@ _Products/services, who each is for, pricing model (optional)._
 
 ## Personas
 _The key people in a deal._
-- **Decision-maker:** — goals — pains —
-- **User / day-to-day:** — goals — pains —
+- **Decision-maker:** _(role — goals — pains)_
+- **User / day-to-day:** _(role — goals — pains)_
 
 ## Positioning & messaging
 - **Category we compete in:**
@@ -35,8 +38,8 @@ _The key people in a deal._
 - **Words/phrases to use:**
 - **Words/phrases to avoid:**
 
-## Team _(optional)_
-- **Who does what:**
+## Team
+- **Who does what:** _(optional)_
 
 ## Client-facing know-how
 - **Questions clients ask most (with answers):**
@@ -47,4 +50,4 @@ _The key people in a deal._
 _What any AI should know to represent us well._
 
 ---
-_Built with [ai-context-kit](https://github.com/nocodework/ai-context-kit). Put this in a shared ChatGPT/Claude Project, a Gemini Gem, CLAUDE.md, or .cursor/rules — and keep it updated._
+_Built with [ai-context-kit](https://github.com/nocodework/ai-context-kit). Put this in a shared ChatGPT/Claude Project, a Gemini Gem, CLAUDE.md, or your editor's AI rules — and keep it updated._

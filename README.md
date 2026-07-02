@@ -31,11 +31,12 @@ Two pieces, because they change at different speeds:
 
 ```bash
 git clone https://github.com/nocodework/ai-context-kit
+mkdir -p ~/.claude/skills
 cp -r ai-context-kit/skills/personal-context ~/.claude/skills/
 cp -r ai-context-kit/skills/company-context  ~/.claude/skills/
 ```
 
-Then in Claude Code: *"build my personal context"* or *"build our company context"*. Output lands as `personal-context.md` / `company-context.md`.
+Then in Claude Code: *"build my personal context"* or *"build our company context"* (the skills interview and write in your language). Output lands as `personal-context.md` / `company-context.md` in the directory where you launched Claude Code. After pulling repo updates, re-copy the skills the same way.
 
 **Without Claude Code (fill a template):** copy a template and write the answers yourself.
 
@@ -53,7 +54,7 @@ You wrote one Markdown file. Here's where to put it so the AI actually uses it. 
 
 **ChatGPT**
 - *Projects:* create a Project → open it → **Instructions** and paste the context, or add the `.md` as a project **file**. Every chat inside that project then uses it.
-- *Custom GPT:* Configure → **Instructions** (paste) or **Knowledge** (upload the `.md`).
+- *Custom GPT:* Configure → **Instructions** (paste) or **Knowledge** (upload the `.md`). If the GPT is shared publicly, treat Knowledge as public — users can extract those files, so keep client names and sales know-how in private Projects instead.
 
 **Claude**
 - *Projects:* create a Project → **Project knowledge** → add the `.md` (or paste into the project's custom instructions). Shared by every chat in the project.
@@ -63,7 +64,10 @@ You wrote one Markdown file. Here's where to put it so the AI actually uses it. 
 - *Gems:* create a Gem → paste the context into the Gem's **instructions**. Or attach the `.md` file in a normal chat.
 
 **Cursor / AI IDEs**
-- Add it to **`.cursor/rules`** (or `.cursorrules`) / your editor's project-rules so the in-editor AI always has it.
+- Save it as **`.cursor/rules/context.mdc`** with `alwaysApply: true` in its frontmatter — the Markdown body stays as-is. (`.cursorrules` still works but is legacy.)
+
+**Agent CLIs (Codex, Gemini CLI, GitHub Copilot)**
+- Same file, different name: **`AGENTS.md`** at the repo root (read by Codex, Cursor and a growing list of tools), **`GEMINI.md`** for Gemini CLI, **`.github/copilot-instructions.md`** for GitHub Copilot.
 
 **Keep it alive:** store the file in a repo or a note, update it as things change, and re-paste / re-upload the new version. A stale context is worse than none.
 

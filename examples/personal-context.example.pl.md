@@ -1,4 +1,5 @@
 # Kontekst osobisty
+_Ostatnia aktualizacja: 2026-06_
 
 > Była szefowa operacji, dziś niezależna konsultantka automatyzacji; pomagam małym zespołom ścinać żmudną robotę no-code i AI.
 
@@ -25,17 +26,20 @@ Dziesięć lat w operacjach, ostatnie cztery przy budowie wewnętrznych narzędz
 ## Komunikacja i głos
 - **Ton:** Bezpośredni, ciepły, prosty język — bez żargonu dla żargonu.
 - **Do kogo zwykle piszę:** Founderzy i ops managerowie bez technicznego zacięcia.
-- **Słowa, które lubię / których unikam:** Lubię „workflow", „przekazanie". Unikam „synergii" i „leverage'owania".
+- **Słowa, które lubię / których unikam:** Lubię „workflow”, „przekazanie”. Unikam „synergii” i „leverage'owania”.
 
 ## Cele
 - **Najbliższe 6–12 miesięcy:** Jeszcze dwóch klientów na retainerze, sproduktyzować bibliotekę szablonów.
 - **Dłuższa perspektywa:** Małe studio, nie wielka agencja.
-- **Jak wygląda „sukces":** Spokojnie, rentownie, klienci, którzy zostają.
+- **Jak wygląda „sukces”:** Spokojnie, rentownie, klienci, którzy zostają.
 
 ## Jak AI ma mi pomagać
-- **Preferowany styl i format:** Zwięźle, opcje gdy jest realny wybór, przykłady ponad teorię.
-- **Zawsze:** Pokaż rozumowanie, gdy wybór ma znaczenie.
-- **Nigdy:** Lej wody, zmyślaj statystyk, korpo-waty.
+- **Preferowany styl i format odpowiedzi:** Zwięźle, opcje gdy jest realny wybór, przykłady ponad teorię.
+- **Zawsze:** Pokazuj rozumowanie, gdy wybór ma znaczenie.
+- **Nigdy:** Lanie wody, zmyślanie statystyk, korpo-wata.
 
 ## Cokolwiek jeszcze
 Cenię czas ponad skalę. Kontruj, jeśli pomysł dokłada złożoności za małą korzyść.
+
+---
+_Zrobione z [ai-context-kit](https://github.com/nocodework/ai-context-kit). Wrzuć to do CLAUDE.md, Projektu w ChatGPT/Claude, Gema w Gemini albo reguł AI w Twoim edytorze — i aktualizuj przy zmianach._

@@ -1,6 +1,9 @@
 # Kontekst osobisty
+_Ostatnia aktualizacja: RRRR-MM_
 
-> Jedno zdanie: kim jesteś i czym się zajmujesz. (np. „Marketing lead w B2B SaaS, ogarniam lifecycle i treści.")
+> Jedno zdanie: kim jesteś i czym się zajmujesz. (np. „Marketing lead w B2B SaaS, ogarniam lifecycle i treści.”)
+
+_Uwaga o prywatności: ten plik będzie wklejany do zewnętrznych narzędzi AI — wpisuj tylko to, co może wyjść poza Twój komputer. Każde pole jest opcjonalne._
 
 ## Tożsamość
 - **Imię i nazwisko:**
@@ -30,7 +33,7 @@ _2–3 zdania: doświadczenie, dziedziny, które naprawdę znasz, kilka konkretn
 ## Cele
 - **Najbliższe 6–12 miesięcy:**
 - **Dłuższa perspektywa:**
-- **Jak wygląda „sukces":**
+- **Jak wygląda „sukces”:**
 
 ## Jak AI ma mi pomagać
 - **Preferowany styl i format odpowiedzi:** _(zwięźle? punkty? pokazuj opcje?)_
@@ -41,4 +44,4 @@ _2–3 zdania: doświadczenie, dziedziny, które naprawdę znasz, kilka konkretn
 _Co dowolne AI powinno o Tobie wiedzieć._
 
 ---
-_Zrobione z [ai-context-kit](https://github.com/nocodework/ai-context-kit). Wrzuć to do CLAUDE.md, Projektu w ChatGPT/Claude, Gema w Gemini albo .cursor/rules — i aktualizuj przy zmianach._
+_Zrobione z [ai-context-kit](https://github.com/nocodework/ai-context-kit). Wrzuć to do CLAUDE.md, Projektu w ChatGPT/Claude, Gema w Gemini albo reguł AI w Twoim edytorze — i aktualizuj przy zmianach._

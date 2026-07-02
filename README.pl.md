@@ -10,7 +10,7 @@ Zbuduj raz **plik kontekstu o sobie i o firmie** — a potem wrzuć go do dowoln
 ![format: Markdown](https://img.shields.io/badge/format-Markdown-3B82F6)
 ![działa z](https://img.shields.io/badge/dzia%C5%82a%20z-ChatGPT%20·%20Claude%20·%20Gemini%20·%20Cursor-22C55E)
 
-<img src="docs/use-everywhere.svg" width="760" alt="Jeden plik kontekstu używany w ChatGPT, Claude, Gemini, Cursor i CLAUDE.md">
+<img src="docs/use-everywhere.pl.svg" width="760" alt="Jeden plik kontekstu używany w ChatGPT, Claude, Gemini, Cursor i CLAUDE.md">
 
 </div>
 
@@ -31,11 +31,12 @@ Dwa elementy, bo zmieniają się w różnym tempie:
 
 ```bash
 git clone https://github.com/nocodework/ai-context-kit
+mkdir -p ~/.claude/skills
 cp -r ai-context-kit/skills/personal-context ~/.claude/skills/
 cp -r ai-context-kit/skills/company-context  ~/.claude/skills/
 ```
 
-Potem w Claude Code: *„zbuduj mój kontekst osobisty"* albo *„zbuduj kontekst firmy"* (skille działają po polsku — pytają i piszą w Twoim języku). Wynik: `personal-context.md` / `company-context.md`.
+Potem w Claude Code: *„zbuduj mój kontekst osobisty”* albo *„zbuduj kontekst firmy”* (skille działają po polsku — pytają i piszą w Twoim języku). Wynik: `personal-context.md` / `company-context.md` w katalogu, w którym uruchomiłeś Claude Code. Po aktualizacji repo skopiuj skille ponownie tym samym sposobem.
 
 **Bez Claude Code (wypełnij szablon):** skopiuj polski szablon i wpisz odpowiedzi sam.
 
@@ -47,13 +48,13 @@ W [`examples/`](examples) są wypełnione przykłady (po angielsku i polsku) —
 
 ## Użyj kontekstu w każdym narzędziu AI
 
-Masz jeden plik Markdown. Oto gdzie go wstawić, żeby AI faktycznie go używało. (Nazwy menu się zmieniają; idea zawsze ta sama — „instrukcje / wiedza / pliki projektu / reguły".)
+Masz jeden plik Markdown. Oto gdzie go wstawić, żeby AI faktycznie go używało. (Nazwy menu się zmieniają; idea zawsze ta sama — „instrukcje / wiedza / pliki projektu / reguły”.)
 
 **Uniwersalnie (działa wszędzie):** wklej treść pliku na początku czatu albo załącz plik `.md`. Proste, zawsze działa.
 
 **ChatGPT**
 - *Projects:* utwórz Projekt → otwórz → **Instructions** i wklej kontekst, albo dodaj `.md` jako **plik** projektu. Każdy czat w tym projekcie go używa.
-- *Custom GPT:* Configure → **Instructions** (wklej) lub **Knowledge** (wgraj `.md`).
+- *Custom GPT:* Configure → **Instructions** (wklej) lub **Knowledge** (wgraj `.md`). Jeśli GPT jest udostępniony publicznie, traktuj Knowledge jako jawne — użytkownicy potrafią wyciągnąć te pliki, więc nazwy klientów i know-how sprzedażowe trzymaj w prywatnych Projects.
 
 **Claude**
 - *Projects:* utwórz Projekt → **Project knowledge** → dodaj `.md` (albo wklej w instrukcje projektu). Współdzielony przez wszystkie czaty w projekcie.
@@ -63,19 +64,22 @@ Masz jeden plik Markdown. Oto gdzie go wstawić, żeby AI faktycznie go używał
 - *Gems:* utwórz Gem → wklej kontekst w **instrukcje** Gema. Albo załącz `.md` w zwykłym czacie.
 
 **Cursor / edytory AI**
-- Dodaj do **`.cursor/rules`** (lub `.cursorrules`) / reguł projektu, żeby AI w edytorze zawsze to miało.
+- Zapisz jako **`.cursor/rules/context.mdc`** z `alwaysApply: true` we frontmatterze — treść Markdown zostaje bez zmian. (`.cursorrules` wciąż działa, ale to podejście legacy.)
+
+**Agentowe CLI (Codex, Gemini CLI, GitHub Copilot)**
+- Ten sam plik, inna nazwa: **`AGENTS.md`** w katalogu głównym repo (czytany przez Codexa, Cursora i coraz więcej narzędzi), **`GEMINI.md`** dla Gemini CLI, **`.github/copilot-instructions.md`** dla GitHub Copilot.
 
 **Utrzymuj aktualność:** trzymaj plik w repo lub notatce, aktualizuj przy zmianach i wklejaj/wgrywaj nową wersję. Nieaktualny kontekst jest gorszy niż żaden.
 
 ## Co zawiera każdy kontekst
 
-**personal-context** — tożsamość i rola, krótkie tło i ekspertyza, co robisz na co dzień, jak lubisz pracować i decydować, styl komunikacji i głos, cele oraz jak AI ma Ci pomagać.
+**personal-context** — tożsamość i rola, krótkie tło i ekspertyza, co robisz na co dzień, jak lubisz pracować i decydować, styl komunikacji i głos, cele oraz jak AI ma Ci pomagać (formaty odpowiedzi, co robić zawsze, a czego nigdy).
 
-**company-context** — co firma robi w jednym zdaniu, oferta i wyróżniki, idealny klient i realne przykłady, kluczowe persony, pozycjonowanie i komunikacja, głos marki (słowa tak/nie), zespół oraz najczęstsze pytania klientów z odpowiedziami.
+**company-context** — co firma robi w jednym zdaniu, oferta i wyróżniki, idealny klient i realne przykłady, kluczowe persony (kto kupuje, kto używa, ich bóle), pozycjonowanie i komunikacja, głos marki (słowa do używania/unikania), zespół oraz najczęstsze pytania klientów z odpowiedziami.
 
 Pełne listy pól: [`templates/`](templates).
 
-## Wkład
+## Współpraca
 
 Issues i PR-y mile widziane — patrz [CONTRIBUTING.md](CONTRIBUTING.md). Wynik to czysty Markdown, a skille to zwykłe instrukcje; nie ma nic do budowania.
 
