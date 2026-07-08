@@ -81,7 +81,7 @@ Full field lists live in [`templates/`](templates).
 
 ## Contributing
 
-Issues and PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). The output is plain Markdown and the skills are plain instructions; nothing to build.
+Issues and PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) and the [roadmap](ROADMAP.md). New here? A few [good first issues](https://github.com/nocodework/ai-context-kit/labels/good%20first%20issue) are open — translating a template or adding a new context type (product, project, brand-voice) is a great place to start. The output is plain Markdown and the skills are plain instructions; nothing to build. Be kind: [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 

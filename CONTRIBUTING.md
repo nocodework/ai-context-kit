@@ -4,6 +4,8 @@ Thanks for considering a contribution.
 
 This is a small kit of Claude Code skills and Markdown templates for building reusable AI context. Keep it simple and provider-neutral: the output is plain Markdown that works with any AI tool, not just Claude Code.
 
+New here? Check the [roadmap](ROADMAP.md) and the [good first issues](https://github.com/nocodework/ai-context-kit/labels/good%20first%20issue), or open a [discussion](https://github.com/nocodework/ai-context-kit/discussions) if you want to talk something through first. Be kind — see the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Good contributions
 - Better interview questions (sharper, fewer, more useful)
 - New context templates (e.g. product, project, brand voice)
