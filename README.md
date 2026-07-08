@@ -79,6 +79,18 @@ You wrote one Markdown file. Here's where to put it so the AI actually uses it. 
 
 Full field lists live in [`templates/`](templates).
 
+## Part of NoCodeWork open source
+
+ai-context-kit is one of a small set of open, self-contained tools we build at [NoCodeWork](https://nocodework.io):
+
+- **[ai-context-kit](https://github.com/nocodework/ai-context-kit)** — give any AI tool durable context about you and your company *(you're here)*
+- **[growth-os](https://github.com/nocodework/growth-os)** — an open Growth OS for any AI agent: audit a site's SEO, speed, GEO and competitors, then act
+- **[offline-notes](https://github.com/nocodework/offline-notes)** — a Markdown editor in one HTML file, zero network requests
+- **[offline-whiteboard](https://github.com/nocodework/offline-whiteboard)** — an infinite whiteboard that never phones home
+- **[offline-sketch](https://github.com/nocodework/offline-sketch)** — a pressure-sensitive sketchpad, fully offline
+
+Same idea across all of them: your data stays yours, no lock-in, MIT.
+
 ## Contributing
 
 Issues and PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) and the [roadmap](ROADMAP.md). New here? A few [good first issues](https://github.com/nocodework/ai-context-kit/labels/good%20first%20issue) are open — translating a template or adding a new context type (product, project, brand-voice) is a great place to start. The output is plain Markdown and the skills are plain instructions; nothing to build. Be kind: [Code of Conduct](CODE_OF_CONDUCT.md).
@@ -90,5 +102,9 @@ Issues and PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) and the [roadm
 ---
 
 <div align="center">
-Built by <a href="https://nocodework.io">NoCodeWork</a>, where we make automation and AI apps for companies. Context beats tools.
+
+<a href="https://nocodework.io"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/nocodework-logo-white.png"><img src="docs/nocodework-logo.png" alt="NoCodeWork" width="150"></picture></a>
+
+Built by <a href="https://nocodework.io">NoCodeWork</a>, where we make automation and AI apps for companies. **Context beats tools.**
+
 </div>

@@ -85,6 +85,18 @@ Pełne listy pól: [`templates/`](templates).
 <img src="docs/context-poster.pl.png" width="560" alt="Czego AI potrzebuje, żeby dobrze działać — problem, dwa pliki kontekstu i jak zbudować w 15 minut">
 </div>
 
+## Część open source NoCodeWork
+
+ai-context-kit to jedno z kilku otwartych, samowystarczalnych narzędzi, które robimy w [NoCodeWork](https://nocodework.io):
+
+- **[ai-context-kit](https://github.com/nocodework/ai-context-kit)** — daj dowolnemu narzędziu AI trwały kontekst o Tobie i o firmie *(jesteś tutaj)*
+- **[growth-os](https://github.com/nocodework/growth-os)** — otwarty Growth OS dla dowolnego agenta AI: audyt SEO, szybkości, GEO i konkurencji, a potem działanie
+- **[offline-notes](https://github.com/nocodework/offline-notes)** — edytor Markdown w jednym pliku HTML, zero zapytań sieciowych
+- **[offline-whiteboard](https://github.com/nocodework/offline-whiteboard)** — nieskończona tablica, która nigdy nie „dzwoni do domu"
+- **[offline-sketch](https://github.com/nocodework/offline-sketch)** — szkicownik czuły na nacisk, w pełni offline
+
+Jedna zasada we wszystkich: Twoje dane zostają Twoje, zero uzależnienia, MIT.
+
 ## Współpraca
 
 Issues i PR-y mile widziane — patrz [CONTRIBUTING.md](CONTRIBUTING.md) i [roadmapa](ROADMAP.md). Pierwszy raz? Jest kilka [good first issues](https://github.com/nocodework/ai-context-kit/labels/good%20first%20issue) — przetłumaczenie szablonu albo dodanie nowego typu kontekstu (produkt, projekt, głos marki) to dobry start. Wynik to czysty Markdown, a skille to zwykłe instrukcje; nie ma nic do budowania. Bądźmy w porządku: [Code of Conduct](CODE_OF_CONDUCT.md).
@@ -96,5 +108,9 @@ Issues i PR-y mile widziane — patrz [CONTRIBUTING.md](CONTRIBUTING.md) i [road
 ---
 
 <div align="center">
-Zrobione przez <a href="https://nocodework.io">NoCodeWork</a> — robimy automatyzacje i aplikacje AI dla firm. Kontekst bije narzędzia.
+
+<a href="https://nocodework.io"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/nocodework-logo-white.png"><img src="docs/nocodework-logo.png" alt="NoCodeWork" width="150"></picture></a>
+
+Zrobione przez <a href="https://nocodework.io">NoCodeWork</a> — robimy automatyzacje i aplikacje AI dla firm. **Kontekst bije narzędzia.**
+
 </div>
