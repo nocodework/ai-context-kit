@@ -31,12 +31,10 @@ Two pieces, because they change at different speeds:
 
 ```bash
 git clone https://github.com/nocodework/ai-context-kit
-mkdir -p ~/.claude/skills
-cp -r ai-context-kit/skills/personal-context ~/.claude/skills/
-cp -r ai-context-kit/skills/company-context  ~/.claude/skills/
+cd ai-context-kit && ./install.sh
 ```
 
-Then in Claude Code: *"build my personal context"* or *"build our company context"* (the skills interview and write in your language). Output lands as `personal-context.md` / `company-context.md` in the directory where you launched Claude Code. After pulling repo updates, re-copy the skills the same way.
+Then in Claude Code: *"build my personal context"* or *"build our company context"* (the skills interview and write in your language). Output lands as `personal-context.md` / `company-context.md` in the directory where you launched Claude Code. Later, *"refresh my context"* reviews an existing file and updates what's gone stale. To update the skills after a repo change: `git pull && ./install.sh` (or copy `skills/*` into `~/.claude/skills/` by hand).
 
 **Without Claude Code (fill a template):** copy a template and write the answers yourself.
 

@@ -18,7 +18,7 @@ New here? Check the [roadmap](ROADMAP.md) and the [good first issues](https://gi
 - Keep questions respectful of privacy — nothing should force sensitive data.
 
 ## Keeping files in sync
-The section structure lives in several places at once: both skills (`skills/*/SKILL.md` — the "What to cover" list and the headings in Output), the EN and PL templates, the EN and PL examples, and the summaries in both READMEs. If you add, remove or rename a section, update all of them in the same PR.
+The section structure lives in several places at once: all three skills (`skills/*/SKILL.md` — the "What to cover" / Output headings in the build skills, and `refresh-context`'s section reference), the EN and PL templates, the EN and PL examples, and the summaries in both READMEs. If you add, remove or rename a section, update all of them in the same PR.
 
 ## Releases
 Changes to the skills or templates get a short entry in [CHANGELOG.md](CHANGELOG.md), and releases are tagged `vX.Y.Z`. If you installed the skills by copying them to `~/.claude/skills/`, re-copy after updating.
