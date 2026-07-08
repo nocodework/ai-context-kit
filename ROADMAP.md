@@ -4,10 +4,12 @@ Short and honest. This kit stays small on purpose — plain Markdown, no build s
 
 Shaped by what people actually ask for. Have an idea? [Open an issue](https://github.com/nocodework/ai-context-kit/issues/new/choose) or [start a discussion](https://github.com/nocodework/ai-context-kit/discussions).
 
-## Now (v0.1.x)
+## Now
 
-- Two skills (`personal-context`, `company-context`) + templates and examples, EN and PL. ✅ Shipped in [v0.1.0](CHANGELOG.md).
-- Community groundwork: contributing guide, issue templates, discussions. ✅
+- Two skills (`personal-context`, `company-context`) + templates and examples, EN and PL. ✅ [v0.1.0](CHANGELOG.md)
+- Community groundwork: contributing guide, issue templates, discussions. ✅ [v0.2.0](CHANGELOG.md)
+- `refresh-context` skill — review an existing file and update what's gone stale. ✅ [v0.2.0](CHANGELOG.md)
+- `install.sh` — one command to install or update all skills. ✅ [v0.2.0](CHANGELOG.md)
 
 ## Next
 
@@ -20,7 +22,7 @@ Shaped by what people actually ask for. Have an idea? [Open an issue](https://gi
 
 ## Ideas (not committed)
 
-- A one-command install / update helper, so you don't hand-copy skills after each update.
-- A tiny checklist skill that reviews an existing context file and suggests what's missing.
+- Editor/IDE one-liners so the context loads automatically per project.
+- A GitHub Action that reminds you when a context file's `Last updated` is more than N months old.
 
 Nothing here needs a framework. If a contribution adds required tooling or a build step, it's probably out of scope — see [CONTRIBUTING.md](CONTRIBUTING.md).
