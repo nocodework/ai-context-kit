@@ -105,6 +105,6 @@ Issues and PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) and the [roadm
 
 <a href="https://nocodework.io"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/nocodework-logo-white.png"><img src="docs/nocodework-logo.png" alt="NoCodeWork" width="150"></picture></a>
 
-Built by <a href="https://nocodework.io">NoCodeWork</a>, where we make automation and AI apps for companies. **Context beats tools.**
+Built by <a href="https://nocodework.io">NoCodeWork</a>, where we build automation, AI and apps for companies. **Context beats tools.**
 
 </div>

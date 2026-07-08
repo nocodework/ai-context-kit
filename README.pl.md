@@ -111,6 +111,6 @@ Issues i PR-y mile widziane — patrz [CONTRIBUTING.md](CONTRIBUTING.md) i [road
 
 <a href="https://nocodework.io"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/nocodework-logo-white.png"><img src="docs/nocodework-logo.png" alt="NoCodeWork" width="150"></picture></a>
 
-Zrobione przez <a href="https://nocodework.io">NoCodeWork</a> — robimy automatyzacje i aplikacje AI dla firm. **Kontekst bije narzędzia.**
+Zrobione przez <a href="https://nocodework.io">NoCodeWork</a> — robimy automatyzację, AI i aplikacje dla firm. **Kontekst bije narzędzia.**
 
 </div>
