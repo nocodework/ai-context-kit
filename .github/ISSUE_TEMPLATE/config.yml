@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Questions & ideas (Discussions)
+    url: https://github.com/nocodework/ai-context-kit/discussions
+    about: Ask how to use the kit, share your setup, or float an idea before opening an issue.
+  - name: 🗺️ Roadmap
+    url: https://github.com/nocodework/ai-context-kit/blob/main/ROADMAP.md
+    about: See what's planned and where a contribution would fit.

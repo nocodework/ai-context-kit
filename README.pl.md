@@ -79,9 +79,15 @@ Masz jeden plik Markdown. Oto gdzie go wstawić, żeby AI faktycznie go używał
 
 Pełne listy pól: [`templates/`](templates).
 
+## Całość w jednym obrazku
+
+<div align="center">
+<img src="docs/context-poster.pl.png" width="560" alt="Czego AI potrzebuje, żeby dobrze działać — problem, dwa pliki kontekstu i jak zbudować w 15 minut">
+</div>
+
 ## Współpraca
 
-Issues i PR-y mile widziane — patrz [CONTRIBUTING.md](CONTRIBUTING.md). Wynik to czysty Markdown, a skille to zwykłe instrukcje; nie ma nic do budowania.
+Issues i PR-y mile widziane — patrz [CONTRIBUTING.md](CONTRIBUTING.md) i [roadmapa](ROADMAP.md). Pierwszy raz? Jest kilka [good first issues](https://github.com/nocodework/ai-context-kit/labels/good%20first%20issue) — przetłumaczenie szablonu albo dodanie nowego typu kontekstu (produkt, projekt, głos marki) to dobry start. Wynik to czysty Markdown, a skille to zwykłe instrukcje; nie ma nic do budowania. Bądźmy w porządku: [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Licencja
 
