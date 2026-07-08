@@ -79,6 +79,12 @@ You wrote one Markdown file. Here's where to put it so the AI actually uses it. 
 
 Full field lists live in [`templates/`](templates).
 
+## The whole kit in one picture
+
+<div align="center">
+<img src="docs/context-poster.png" width="560" alt="What AI needs to actually work — the problem, two context files, and how to build them in 15 minutes">
+</div>
+
 ## Part of NoCodeWork open source
 
 ai-context-kit is one of a small set of open, self-contained tools we build at [NoCodeWork](https://nocodework.io):
