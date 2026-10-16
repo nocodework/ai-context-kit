@@ -1,0 +1,12 @@
+{
+  "name": "ai-context-kit",
+  "description": "Open source from NoCodeWork: context files for AI tools.",
+  "owner": { "name": "NoCodeWork", "url": "https://nocodework.io" },
+  "plugins": [
+    {
+      "name": "ai-context-kit",
+      "source": "./",
+      "description": "Build reusable context files about you and your company for any AI tool."
+    }
+  ]
+}

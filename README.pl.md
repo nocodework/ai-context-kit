@@ -29,6 +29,14 @@ Dwa elementy, bo zmieniają się w różnym tempie:
 
 **Z [Claude Code](https://claude.com/claude-code) (wywiad):** zainstaluj skill, odpal, odpowiedz na kilka pytań. Skill dopytuje o luki, podpowiada, czego brakuje, i pisze plik za Ciebie.
 
+Jedna komenda w Claude Code:
+
+```
+/plugin install ai-context-kit --marketplace nocodework/ai-context-kit
+```
+
+Na Claude Code starszym niż 2.1.275: `/plugin marketplace add nocodework/ai-context-kit`, potem `/plugin install ai-context-kit@ai-context-kit`. Albo sklonuj i zainstaluj ręcznie:
+
 ```bash
 git clone https://github.com/nocodework/ai-context-kit
 cd ai-context-kit && ./install.sh
