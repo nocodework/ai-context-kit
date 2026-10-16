@@ -29,6 +29,14 @@ Dwa elementy, bo zmieniają się w różnym tempie:
 
 **Z [Claude Code](https://claude.com/claude-code) (wywiad):** zainstaluj skill, odpal, odpowiedz na kilka pytań. Skill dopytuje o luki, podpowiada, czego brakuje, i pisze plik za Ciebie.
 
+Jedna komenda w Claude Code:
+
+```
+/plugin install ai-context-kit --marketplace nocodework/ai-context-kit
+```
+
+Na Claude Code starszym niż 2.1.275: `/plugin marketplace add nocodework/ai-context-kit`, potem `/plugin install ai-context-kit@ai-context-kit`. Albo sklonuj i zainstaluj ręcznie:
+
 ```bash
 git clone https://github.com/nocodework/ai-context-kit
 cd ai-context-kit && ./install.sh
@@ -88,6 +96,7 @@ Pełne listy pól: [`templates/`](templates).
 ai-context-kit to jedno z kilku otwartych, samowystarczalnych narzędzi, które robimy w [NoCodeWork](https://nocodework.io):
 
 - **[ai-context-kit](https://github.com/nocodework/ai-context-kit)** — daj dowolnemu narzędziu AI trwały kontekst o Tobie i o firmie *(jesteś tutaj)*
+- **[ai-adoption-kit](https://github.com/nocodework/ai-adoption-kit)** — wdrożenie AI w firmie w 90 dni: plan wdrożenia, mapa procesów i polityka AI z krótkiego wywiadu. Najlepiej działa z kontekstem firmy z tego kitu
 - **[growth-os](https://github.com/nocodework/growth-os)** — otwarty Growth OS dla dowolnego agenta AI: audyt SEO, szybkości, GEO i konkurencji, a potem działanie
 - **[offline-notes](https://github.com/nocodework/offline-notes)** — edytor Markdown w jednym pliku HTML, zero zapytań sieciowych
 - **[offline-whiteboard](https://github.com/nocodework/offline-whiteboard)** — nieskończona tablica, która nigdy nie „dzwoni do domu"

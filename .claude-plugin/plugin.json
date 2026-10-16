@@ -1,0 +1,9 @@
+{
+  "name": "ai-context-kit",
+  "description": "Build reusable context files about you and your company for any AI tool (personal-context, company-context, refresh-context).",
+  "version": "0.2.0",
+  "author": { "name": "NoCodeWork", "url": "https://nocodework.io" },
+  "homepage": "https://github.com/nocodework/ai-context-kit",
+  "repository": "https://github.com/nocodework/ai-context-kit",
+  "license": "MIT"
+}
